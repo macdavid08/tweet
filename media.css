@@ -1,0 +1,258 @@
+@media screen and (min-width: 200px) and (max-width: 420px) {
+    *{
+        padding: 0px;
+        margin: 0px;
+        font-family: 'Lato', sans-serif;
+        list-style-type: none;
+        text-decoration: none;
+    }
+
+    .home {
+        width: 80%;
+        max-width: 80%;
+    }
+
+    .amy, .max, .ram{
+        width: 90%;
+        max-width: 90%;
+        height: 160px;
+        max-height: 160px;
+        margin-left: 0px;
+    }
+
+    
+
+    .max {
+        height: 160px;
+        max-height: 170px;
+    }
+
+    .form {
+        width: 90%;
+        max-width: 90%;
+        height: 130px;
+        max-height: 130px;
+    }
+
+    .amyTxt, .maxTxt, .ramTxt, .formTxt {
+        top: 0px;
+        
+    }
+    .amyL, .maxL, .ramL, .formL {
+        left: 0px;
+    }
+    .amyL p, .maxL p, .ramL p, .formL p {
+        margin-right: 9px;
+    }
+
+    .track, .track1, .track2 {
+        width: 50px;
+        flex-direction: row;
+        top: 160px;
+        padding: 3px 6px;
+    }
+    .track1{
+        top: 155px;
+    }
+
+    .track{
+        top: 155px;
+    }
+
+    .reply {
+        top:150px;
+    }
+
+    
+
+   
+     .reply1, .reply2, .replyr {
+        top: 155px;
+        right: 30px;
+    }
+
+    .replym {
+        top:150px ;
+    }
+
+    .reply1 {
+        right: 100px;
+    }
+
+    .txtcontent, .maxcontent, .ramcontent {
+        width: 90%;
+        max-width: 90%;
+        box-sizing: border-box;
+        padding: 5px;
+        position: absolute;
+        left: 15px;
+        top: 45px;
+    }
+
+    .text {
+        position: absolute;
+        left: 0px;
+        width: 245px;
+        max-width: 245px;
+        height: 60px;
+        top: 5px;
+        padding: 10px;
+        resize: none;
+        border: none;
+        overflow-x: hidden;
+    }
+
+    .reply3 input {
+        right: 40px;
+        top: 100px
+    }
+     .p {
+        position: absolute;
+        top: 100px;
+        left:10px;
+     }
+    
+}
+
+@media screen and (min-width: 450px) and (max-width: 900px) {
+
+    .amy, .max, .ram, .form {
+        width: 100%;
+        max-width: 100%;
+        height: 150px;
+        max-height: 150px;
+        padding: 10px;
+    }
+    .ram {
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+    
+    .max, .form {
+        margin-top: 20px;
+       
+    }
+    
+    .form{
+        height: 100px;
+        max-height: 150px;
+    }
+
+    .amyL, .maxL, .ramL {
+        top: 0px;
+        left: 35px;
+    }
+
+    .formL {
+        left: 5px;
+    }
+
+    .amyL p, .maxL p, .ramL p, .formL p {
+        margin-right: 5px;
+    }
+
+    .reply1, .reply2 {
+        top: 132px;
+    }
+
+    .reply3 input {
+        position: absolute;
+        background-color: blue;
+        border: none;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 5px;
+        right: 30px;
+        top: 5px
+    }
+
+    .txtcontent, .maxcontent, .ramcontent {
+        width: 80%;
+        max-width: 80%;
+        box-sizing: border-box;
+        padding: 5px;
+        position: absolute;
+        left: 50px;
+        top: 50px;
+        
+    }
+    .text {
+        position: absolute;
+        left: 40px;
+        width: 200px;
+        height: 70px;
+        top: 5px;
+        padding: 5px;
+        resize: none;
+        border: none;
+        overflow: hidden;
+    }
+    
+}
+
+@media screen and  (min-width: 750px)and  (max-width: 920px) {
+
+    .amy, .max, .ram, .form {
+        width: 100%;
+        max-width: 100%;
+        height: 150px;
+        max-height: 150px;
+        padding: 10px;
+    }
+    .ram {
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+    
+    .max, .form {
+        margin-top: 20px;
+       
+    }
+    
+    .form{
+        height: 100px;
+        max-height: 150px;
+    }
+
+    .amyL, .maxL, .ramL, .formL {
+        left: 55px;
+    }
+
+    .amyL p, .maxL p, .ramL p, .formL p {
+        margin-right: 15px;
+    }
+
+    .reply3 input {
+        position: absolute;
+        background-color: blue;
+        border: none;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 5px;
+        right: 30px;
+        top: 5px
+    }
+
+    .txtcontent, .maxcontent, .ramcontent {
+        width: 90%;
+        max-width: 90%;
+        box-sizing: border-box;
+        padding: 5px;
+        position: absolute;
+        left: 50px;
+        top: 50px;
+        
+    }
+    .text {
+        position: absolute;
+        left: 40px;
+        width: 370px;
+        height: 70px;
+        top: 5px;
+        padding: 5px;
+        resize: none;
+        border: none;
+        overflow: hidden;
+    }
+    
+}
